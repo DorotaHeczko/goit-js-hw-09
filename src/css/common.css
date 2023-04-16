@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  color: #fafafa;
+  background-color: #212121;
+  border-radius: 30%;
+}
+
+input {
+  border-radius: 20%;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+ gap: 10px;
+ margin: 15px;
+
+}
+.field {
+   border-radius: 2px dashed gray;
+}
