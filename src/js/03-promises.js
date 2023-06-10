@@ -36,6 +36,7 @@ async function myPromise(amount, step, time, current = 1) {
 }
 
 
+
 submitEl.addEventListener("click", function (event) {
   event.preventDefault();
   const { value: amount } = amountEl;
